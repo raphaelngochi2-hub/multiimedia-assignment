@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Benefits of Swimming</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Waterline scroll progress dock -->
+<nav class="waterline" aria-label="Section navigation">
+  <div class="waterline-track">
+    <div class="waterline-fill" id="waterlineFill"></div>
+  </div>
+  <ul class="waterline-dots">
+    <li><a href="#slide-splash" data-index="0" class="dot active" aria-label="Go to intro"></a></li>
+    <li><a href="#slide-plunge" data-index="1" class="dot" aria-label="Go to hero image"></a></li>
+    <li><a href="#slide-why" data-index="2" class="dot" aria-label="Go to why swimming"></a></li>
+    <li><a href="#slide-video" data-index="3" class="dot" aria-label="Go to video"></a></li>
+    <li><a href="#slide-end" data-index="4" class="dot" aria-label="Go to closing"></a></li>
+  </ul>
+</nav>
+
+<main class="deck" id="deck">
+
+  <!-- SLIDE 1 — Intro -->
+  <section class="slide" id="slide-splash">
+    <div class="slide-inner reveal">
+      <p class="eyebrow">Aquatic Wellness &middot; Lane 01</p>
+      <h1 class="display">Swimming<br>keeps you afloat</h1>
+      <p class="lede">One stroke touches nearly every muscle in the body — and every joint gets to skip the impact. Scroll to dive in.</p>
+      <a class="scroll-cue" href="#slide-plunge" aria-label="Scroll to next slide">
+        <span>Scroll</span>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 4v16M5 13l7 7 7-7"/></svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- wave divider -->
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C 200,60 400,0 600,30 C 800,60 1000,0 1200,30 L1200,60 L0,60 Z"></path></svg>
+  </div>
+
+  <!-- SLIDE 2 — Hero image -->
+  <section class="slide slide-image" id="slide-plunge">
+    <img src="images/swimming1.jpeg" alt="Swimmer gliding through clear pool water mid-stroke" class="hero-photo reveal" width="900" height="420" loading="eager" decoding="async">
+    <div class="caption-card reveal">
+      <h2 class="display sm">The Plunge</h2>
+      <p>Water is roughly 800 times denser than air. That resistance is free strength training — no dumbbells required.</p>
+    </div>
+  </section>
+
+  <div class="wave-divider flip" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C 200,60 400,0 600,30 C 800,60 1000,0 1200,30 L1200,60 L0,60 Z"></path></svg>
+  </div>
+
+  <!-- SLIDE 3 — Why swimming + benefits -->
+  <section class="slide slide-why" id="slide-why">
+    <div class="why-inner">
+      <div class="why-copy reveal">
+        <p class="eyebrow">Why Swim?</p>
+        <h2 class="display sm">A full-body workout, minus the pounding</h2>
+        <p>
+          Swimming trains the heart and lungs, builds strength through
+          natural resistance, and improves flexibility with every reach
+          and kick. Because water supports body weight, it's one of the
+          rare exercises that's gentle on joints while still demanding of
+          muscle — which is why it works for a 9-year-old and a
+          90-year-old alike.
+        </p>
+        <img src="images/swimming2.jpeg" alt="Swimmers racing in a competition lane" class="side-photo" width="500" height="260" loading="lazy" decoding="async">
+      </div>
+      <div class="card reveal">
+        <h3>What you gain in the water</h3>
+        <ul>
+          <li><span class="tick">✓</span> Stronger heart &amp; lungs</li>
+          <li><span class="tick">✓</span> Full-body muscle tone</li>
+          <li><span class="tick">✓</span> High calorie burn</li>
+          <li><span class="tick">✓</span> Lower stress, better sleep</li>
+          <li><span class="tick">✓</span> Joint-friendly at any age</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <div class="wave-divider" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C 200,60 400,0 600,30 C 800,60 1000,0 1200,30 L1200,60 L0,60 Z"></path></svg>
+  </div>
+
+  <!-- SLIDE 4 — Video -->
+  <section class="slide slide-video" id="slide-video">
+    <div class="reveal">
+      <p class="eyebrow">Watch</p>
+      <h2 class="display sm">Technique in motion</h2>
+      <video controls preload="metadata" poster="images/swimming1.jpeg">
+        <source src="videos/swimming.mp4" type="video/mp4">
+        Your browser does not support HTML5 video.
+      </video>
+      <p class="video-note">Turn the sound on — pacing your breath with your stroke is half the technique.</p>
+    </div>
+  </section>
+
+  <div class="wave-divider flip" aria-hidden="true">
+    <svg viewBox="0 0 1200 60" preserveAspectRatio="none"><path d="M0,30 C 200,60 400,0 600,30 C 800,60 1000,0 1200,30 L1200,60 L0,60 Z"></path></svg>
+  </div>
+
+  <!-- SLIDE 5 — Closing -->
+  <section class="slide slide-end" id="slide-end">
+    <div class="slide-inner reveal">
+      <h2 class="display">Ready to<br>jump in?</h2>
+      <p class="lede">Find your nearest pool, pack a towel, and let the water do some of the work.</p>
+      <footer>
+        <p>&copy; 2026 Multimedia Website Assignment — Benefits of Swimming</p>
+      </footer>
+    </div>
+  </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
